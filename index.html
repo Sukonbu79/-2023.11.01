@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> css練習</h1>
+
+<main>
+<section class="box1">
+<h2>BOX1</h2>
+  <p>ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。</p>
+<a href="https://shu-hobby.com/" target="”_blank”" rel="noopener">トップページ：ボタン練習</a>
+</section>
+<section class="box2">
+<h2>BOX2</h2>
+  <p>ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。ボックスデザイン練習。</p>
+<a href="https://shu-hobby.com/life-hack/comfortable-goods/5599/" target="”_blank”" rel="noopener">キーボード：ボタン練習</a>
+</section>
+</main>
+
+
+
+
+<style>
+
+main {
+display: flex;
+border: 2px solid blue;
+margin: 0;
+padding: 0;
+}
+
+.box1 {
+margin: 0;
+padding: 0 16px 16px 16px;
+flex: 1;
+}
+
+h1 {
+  font-weight: 100;
+  color: red;
+  border-top: 12px ridge lightgreen;
+  border-bottom: 12px groove skyblue;
+  border-right: 12px groove orange;
+  border-left: 32px solid pink;
+  border-radius: 8px 64px 64px 8px;
+  text-align: center;
+}
+
+h2{
+border-bottom: 2px solid #222;
+}
+
+a {
+display: block;
+margin-top: 16px;
+width: 200px;
+border: solid 2px #222;
+border-radius: 8px;
+padding : 16px;
+text-aline: center;
+font-weight: bold;
+text-decoration: none;
+}
+
+.box1 a:hover {
+color: white;
+background: #222;
+}
+
+.box2 {
+border-left: 2px solid yellow;
+padding: 0 16px;
+}
+
+.box2 .h2 {
+text-align: center;
+padding-bottom: 16px;
+background: skyblue;
+padding-top: 16px;
+margin: 0;
+}
+
+.box2 .p2 {
+font-size: 24px;
+line-height: 1.6;
+}
+.box2 a {
+margin: 0 auto 16px;
+}
+
+.box2 a:hover {
+color: white;
+background: red;
+}
+</style>
+</body>
+</html>
